@@ -963,7 +963,7 @@ section {
     border-bottom: solid #b63362;
 }
 .new-footer .footer-mail-clicks:hover span::after {
-    border-bottom: solid #4285f4;
+    border-bottom: solid #4719b2;
 }
 .new-footer .single-cta {
     display: flex;
@@ -1005,7 +1005,7 @@ section {
     font-size: 12px;
     display: flex;
     align-items: center;
-    color: #4285f4;
+    color: #4719b2;
     position: relative;
     padding-bottom: 2px;
 }
