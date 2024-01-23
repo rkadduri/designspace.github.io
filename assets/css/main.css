@@ -45,10 +45,10 @@ a {
 a:hover {
     color: #ec2727;
 }
-h1,h2,h3,h4 {
+h1,h2,h3,h4,h5,h6 {
     font-family: "Poppins", sans-serif !important;
 }
-h5,h6,p {
+p {
     font-family: "Inter", sans-serif !important;
 }
 h4{
@@ -650,6 +650,12 @@ section {
 }
 #journey .read-more a{
     margin-left: 20px;
+}
+#journey .read-more a:hover::after {
+    width: 80%;
+}
+#journey .read-more a::after {
+    left: 20px;
 }
 #get-us-know {
     margin-top: 30px;
