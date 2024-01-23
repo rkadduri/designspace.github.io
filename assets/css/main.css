@@ -1020,7 +1020,7 @@ section {
     color: #000;
     margin-left: 150px;
 }
-.portfolio-card-text p {
+.portfolio-card-text > p {
     text-transform: uppercase;
     color: #4719b2;
     position: absolute;
