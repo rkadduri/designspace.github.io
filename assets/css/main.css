@@ -1,4 +1,4 @@
-body,p {
+body,p,.tag-line {
     font-size: 14px;
     line-height: 1.35;
 }
@@ -76,9 +76,6 @@ h4{
 }
 .banner-tag{
     font-size: 16px;
-}
-.tag-line {
-    font-size: 14px;
 }
 h1,h2,h3,h4,h5,h6, .w600 {
     font-weight: 600;
