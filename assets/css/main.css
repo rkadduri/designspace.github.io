@@ -1,5 +1,6 @@
 body,p {
     font-size: 14px;
+    line-height: 1.35;
 }
 .btn1,a,a:hover {
     text-decoration: none;
@@ -50,13 +51,13 @@ h1,h2,h3,h4 {
 h5,h6,p {
     font-family: "Inter", sans-serif !important;
 }
+h4{
+    font-size: 20px;
+}
 .banner-title {
     font-size: 54px;
     font-weight: 700;
     line-height: 1.1;
-}
-.section-title,.stitle,.title-tag,.ux-sp {
-    font-weight: 500;
 }
 .secondary-title {
     font-size: 40px;
@@ -80,7 +81,7 @@ h5,h6,p {
     font-size: 14px;
     font-weight: 800;
 }
-.w600 {
+h1,h2,h3,h4,h5,h6, .w600 {
     font-weight: 600;
 }
 .w700 {
@@ -256,7 +257,7 @@ section {
         justify-content: space-between;
         padding: 0 3px;
         color: #000;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 500;
         white-space: nowrap;
         transition: 0.3s;
@@ -524,9 +525,10 @@ section {
 }
 .card-title {
     color: #fff;
+    line-height: 1.2;
 }
 #cards-section .card .card-text {
-    font-size: 14px;
+    font-weight: 400;
     color: rgba(255, 255, 255, 0.78);
 }
 #cards-section .card-1 .card img {
@@ -638,8 +640,10 @@ section {
     margin-left: 20px;
     margin-right: 20px;
 }
+#journey p,#journey .journey-body ul li{
+    color: #212c35 !important;
+}
 #journey .journey-body p {
-    color: #000;
     width: 83%;
 }
 #journey .journey-body ul {
@@ -647,7 +651,6 @@ section {
     list-style-type: none;
 }
 #journey .journey-body ul li {
-    color: #000;
     list-style-type: disc;
 }
 #get-us-know {
@@ -772,7 +775,7 @@ section {
 }
 .swiper-button-next,.swiper-button-prev {
     position: absolute;
-    top: 0;
+    top: -30px;
     width: 37px;
     height: 37px;
     border-radius: 50%;
@@ -796,19 +799,19 @@ section {
 }
 .testimonials .testimonial-item h3 {
     font-size: 15px;
-    font-weight: 800;
     color: #5d4594;
 }
 .testimonials .testimonial-item h4 {
-    font-size: 11px;
-    font-weight: 500;
-    color: #565656;
+    margin-top: -5px;
+    font-size: 10px;
+    font-weight: 300;
+    color: #787878;
 }
 .testimonials .testimonial-item p {
-    margin: 0 auto 15px;
+    margin: 0 auto 18px;
     color: #313131;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.4;
 }
 #industries .industries-body {
     width: 90%;
@@ -888,9 +891,10 @@ section {
 }
 #footer-banner .footer-bg p {
     color: #fff;
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 300;
     width: 77%;
+    line-height: 1.3;
 }
 .new-footer .cta-text span::after,.new-footer .link-hover::after {
     content: "";
@@ -913,7 +917,6 @@ section {
     color: #313131;
 }
 .new-footer .ready-header {
-    font-weight: 700;
     font-size: 18px;
     color: #000;
 }
@@ -990,7 +993,6 @@ section {
     display: inline-block;
 }
 .new-footer .cta-text h4 {
-    font-weight: 800;
     font-size: 12px;
     display: flex;
     align-items: center;
