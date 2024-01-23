@@ -1,5 +1,5 @@
 body,p {
-    font-size: 15px;
+    font-size: 14px;
 }
 .btn1,a,a:hover {
     text-decoration: none;
@@ -52,7 +52,8 @@ h5,h6,p {
 }
 .banner-title {
     font-size: 54px;
-    font-weight: 900;
+    font-weight: 700;
+    line-height: 1.1;
 }
 .section-title,.stitle,.title-tag,.ux-sp {
     font-weight: 500;
@@ -72,6 +73,9 @@ h5,h6,p {
 .title-tag {
     font-size: 18px;
 }
+.banner-tag{
+    font-size: 16px;
+}
 .tag-line {
     font-size: 14px;
     font-weight: 800;
@@ -89,7 +93,7 @@ h5,h6,p {
     font-weight: 900;
 }
 .btn1,.fifth,.read-more a {
-    font-weight: 800;
+    font-weight: 500;
 }
 .animated {
     animation: 2s ease-in-out infinite alternate-reverse both up-down;
@@ -114,11 +118,11 @@ ul li {
     -moz-appearance: none;
     appearance: none;
     border: 1px solid #4719b2;
-    border-radius: 2px;
+    border-radius: 2px !important;
     color: #392469;
     cursor: pointer;
     font-size: 16px;
-    padding: 15px 30px;
+    padding: 10px 15px;
     text-align: center;
     display: block;
     width: -moz-max-content;
