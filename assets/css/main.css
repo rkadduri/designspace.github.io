@@ -55,7 +55,7 @@ h4{
     font-size: 20px;
 }
 .banner-title {
-    font-size: 54px;
+    font-size: 52px;
     font-weight: 700;
     line-height: 1.1;
 }
@@ -160,7 +160,6 @@ ul li {
 }
 .read-more a {
     color: #4719b2;
-    font-size: 14px;
     text-transform: uppercase;
     display: inline-block;
 }
@@ -171,7 +170,7 @@ ul li {
 .read-more a::after {
     left: 0;
     bottom: 0;
-    width: 20%;
+    width: 0%;
     height: 2px;
     transition: width 0.3s;
 }
@@ -652,6 +651,9 @@ section {
 #journey .journey-body ul li {
     list-style-type: disc;
 }
+#journey .read-more a{
+    margin-left: 20px;
+}
 #get-us-know {
     margin-top: 30px;
 }
@@ -1025,9 +1027,6 @@ section {
     color: #4719b2;
     position: absolute;
     top: 5px;
-}
-#portfolio-card .portfolio-card-text .port-text2,.breadcrumb-item {
-    font-size: 14px;
 }
 #portfolio-card .card-port-bg img {
     height: 400px;
