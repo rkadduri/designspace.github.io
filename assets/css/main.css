@@ -1,6 +1,7 @@
 body,p,.tag-line {
     font-size: 14px;
     line-height: 1.35;
+    letter-spacing: 0.1;
 }
 .btn1,a,a:hover {
     text-decoration: none;
@@ -157,7 +158,7 @@ ul li {
 }
 .read-more a {
     color: #4719b2;
-    text-transform: uppercase;
+    text-transform: capitalize;
     display: inline-block;
 }
 .read-more a:hover::after {
@@ -1026,10 +1027,19 @@ section {
     margin-left: 150px;
 }
 .portfolio-card-text > p {
-    text-transform: uppercase;
-    color: #4719b2;
+    text-transform: capitalize;
+    color: #f66f33;
     position: absolute;
     top: 5px;
+    font-size: 15px;
+}
+.portfolio-card-text .port-para h4 {
+    font-size: 15px;
+    line-height: 1.3;
+}
+.port-para p{
+    font-size: 13px;
+    margin-bottom: 4rem;
 }
 #portfolio-card .card-port-bg img {
     height: 400px;
