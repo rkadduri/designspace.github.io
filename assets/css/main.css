@@ -1141,7 +1141,7 @@ section {
     background: linear-gradient(180deg, rgba(17, 10, 0, 0) 0, #140c00 100%);
 }
 #about-evoke-tech h6,#timeline-service h6,#timeline-service h6 a {
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #5d4594;
 }
 #contact-cards form .form-columns-1,#contact-cards form .form-columns-2 {
