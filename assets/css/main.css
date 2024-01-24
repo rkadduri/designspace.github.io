@@ -1945,10 +1945,10 @@ section {
     height: 600px;
 }
 .middle-service-img {
-    top: 31px;
+    top: 80px;
     left: 21px;
     width: 75%;
-    height: 530px;
+    height: 480px;
 }
 .timeline-arrow-3 {
     top: 50%;
@@ -1977,14 +1977,14 @@ section {
 .third-service-img {
     width: 39%;
     position: absolute;
-    height: 480px;
-    top: 35px;
+    height: 440px;
+    top: 65px;
     right: -60px;
     left: auto;
 }
 .timeline-arrow-round-1 {
     top: auto;
-    bottom: -90px;
+    bottom: -100px;
     left: 68.2%;
 }
 .timeline-arrow-4 {
