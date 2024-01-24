@@ -1,7 +1,7 @@
 body,p,.tag-line {
     font-size: 14px;
     line-height: 1.35;
-    letter-spacing: 0.1;
+    letter-spacing: 0.1px;
 }
 .btn1,a,a:hover {
     text-decoration: none;
