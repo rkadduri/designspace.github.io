@@ -1179,7 +1179,7 @@ section {
     color: #4719b2;
     position: relative;
     z-index: 1;
-    font-weight: 800;
+    font-weight:500;
     border: 1px solid;
     background-color: transparent;
     padding: 10px 30px;
@@ -2035,6 +2035,31 @@ section {
 .btn-black .fifth:hover,.cs-design-bg-rodwell-2 .col-md-4 h6,.cs-design-bg-rodwell-2 .col-md-4 p {
     color: #fff !important;
 }
+
+.about-tp{
+margin-top:2.8rem;
+}
+
+
+/*****Contact us page*****/
+
+ul.no-list.hs-error-msgs.inputs-list {
+    list-style: none;
+    padding: 8px 0px;
+    margin-bottom: 0px;
+}
+ul.no-list.hs-error-msgs.inputs-list li label{
+color: red;
+font-size: 13px;
+}
+
+
+
+/************Media styles ***********/
+
+
+
+
 @media (max-width: 1199px) {
     .testimonials .swiper-slide-active {
         opacity: 1;
