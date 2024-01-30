@@ -2047,14 +2047,31 @@ ul.no-list.hs-error-msgs.inputs-list {
     list-style: none;
     padding: 8px 0px;
     margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+ul.no-list.hs-error-msgs.inputs-list li {
+    margin-bottom:0px;
 }
 ul.no-list.hs-error-msgs.inputs-list li label{
 color: red;
 font-size: 13px;
 }
 
+.form-columns-2 .hs_firstname {
+    padding-right:10px;
+}
 
+.form-columns-2 .hs_phone {
+    padding-left:10px;
+}
 
+.form-columns-2 {
+    margin-bottom: 20px !important;
+}
+.form-columns-1 {
+    margin-bottom: 20px !important;
+}
 /************Media styles ***********/
 
 
