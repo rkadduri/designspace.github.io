@@ -2009,7 +2009,7 @@ section {
     padding-right: 70px;
 }
 #mobility-card {
-    margin: 38px;
+    margin: 38px 0;
 }
 .inds-card-text span {
     text-transform: uppercase;
