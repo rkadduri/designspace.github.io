@@ -66,6 +66,12 @@ document.addEventListener('DOMContentLoaded', () => {
     mobileNavHide.classList.toggle('d-none');
   }
 
+  /**Footer year update */
+  function newDate() {
+    return new Date().getFullYear();
+  }
+  document.onload = document.getElementById("copyrightsYear").innerHTML =newDate();
+
   /**
    * Hide mobile nav on same-page/hash links
    */
