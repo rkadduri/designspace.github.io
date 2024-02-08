@@ -1,7 +1,9 @@
 body,p,.tag-line {
-    font-size: 14px;
-    line-height: 1.35;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
     letter-spacing: 0.1px;
+    color:#212c35;
 }
 .btn1,a,a:hover {
     text-decoration: none;
@@ -10,7 +12,7 @@ body,p,.tag-line {
     position: relative;
 }
 .fifth:after,.read-more a::after {
-    background: #4719b2;
+    background: #FF2E00;
     position: absolute;
     display: block;
     content: "";
@@ -33,6 +35,7 @@ body,p,.tag-line {
 body {
     font-family: "Inter", sans-serif !important;
     overflow-x: hidden;
+    border: 20px solid #FFF;
 }
 .sec-padding {
     padding: 70px 0;
@@ -46,43 +49,46 @@ a {
 a:hover {
     color: #ec2727;
 }
-h1,h2,h3,h4,h5,h6 {
+h1 {
     font-family: "Poppins", sans-serif !important;
 }
-p {
+h2,h3,h4,h5,h6, p {
     font-family: "Inter", sans-serif !important;
 }
-h4{
-    font-size: 20px;
-}
 .banner-title {
-    font-size: 52px;
-    font-weight: 700;
-    line-height: 1.1;
+    color: #5C00A4;
+    font-size: 60px;
+    line-height: 66px;
+    letter-spacing: -1.3px;
 }
 .secondary-title {
-    font-size: 40px;
+    font-size: 42px;
+    line-height: 44px;
+    letter-spacing: -0.84px;
 }
 .ux-sp {
     font-size: 36px;
 }
 .section-title {
-    font-size: 29px;
+    font-size: 28px;
+    letter-spacing: -0.56px;
 }
 .stitle {
-    font-size: 24px;
+    font-size: 26px;
 }
 .title-tag {
-    font-size: 18px;
+    font-size: 20px;
 }
 .banner-tag{
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.44px;
 }
-h1,h2,h3,h4,h5,h6, .w600 {
-    font-weight: 600;
-}
-.w700 {
+h1,h2,h3,h4,h5,h6, .w700 {
     font-weight: 700;
+}
+.w600 {
+    font-weight: 600;
 }
 .w800 {
     font-weight: 800;
@@ -90,7 +96,7 @@ h1,h2,h3,h4,h5,h6, .w600 {
 .w900 {
     font-weight: 900;
 }
-.btn1,.fifth,.read-more a {
+.btn1,.fifth {
     font-weight: 500;
 }
 .animated {
@@ -115,25 +121,25 @@ ul li {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    border: 1px solid #4719b2;
+    border: 1px solid #FF2E00;
     border-radius: 2px !important;
-    color: #392469;
+    color: #FF2E00;
     cursor: pointer;
     font-size: 16px;
-    padding: 10px 15px;
+    padding: 16px 28px;
     text-align: center;
     display: block;
     width: -moz-max-content;
     width: max-content;
 }
 .btn1:focus,.btn1:hover {
-    color: #4719b2;
+    color: #FF2E00;
     outline: 0;
 }
 .fifth {
-    border-color: #4719b2;
+    border-color: #FF2E00;
     border-radius: 0;
-    color: #4719b2;
+    color: #FF2E00;
     z-index: 1;
     transition: color 0.3s ease-in-out;
 }
@@ -157,12 +163,14 @@ ul li {
     width: fit-content;
 }
 .read-more a {
-    color: #4719b2;
+    color: #FF2E00;
     text-transform: capitalize;
     display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
 }
 .read-more a:hover::after {
-    border-bottom: 2px solid #4719b2;
+    border-bottom: 2px solid #FF5834;
     width: 100%;
 }
 .read-more a::after {
@@ -198,20 +206,23 @@ ul li {
     visibility: visible;
     opacity: 1;
 }
-.fixedheader {
-    transition: 0.5s;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    box-shadow: 0 0 8px 2px #827d8d26;
-    height: 60px !important;
-}
 .header {
-    background: #fff;
     transition: 0.5s;
     z-index: 997;
     height: 90px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:20px;
+}
+.fixedheader {
+    background: #fff;
+    transition: 0.5s;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 8px 2px #827d8d26;
+    height: 60px !important;
+    top:0
 }
 .header .logo img {
     max-height: 40px;
@@ -433,22 +444,23 @@ section {
     }
 }
 #case-studies-banner h1,#header-banner .banner-bg h1 {
-    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.04);
-    background: linear-gradient(180deg, #b63362 50%, #673b92 100%);
     margin: 0 0 10px;
     text-transform: capitalize;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+}
+#header-banner {
+    background: linear-gradient(103deg, rgba(255, 231, 228, 0.20) 2.62%, rgba(183, 218, 255, 0.20) 97.67%);
+    padding-top: 98px;
+    padding-bottom: 98px;
 }
 #header-banner .banner-bg h5 {
-    color: #000;
-    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.04);
+    color: #0A243F;
     margin: 0;
     width: 80%;
 }
 #header-banner .banner-bg p {
-    color: #616161;
+    color: #384853;
+    font-size: 20px;
+    padding-top: 20px !important;
 }
 #header-banner .banner-bg .image-2 {
     left: 0;
@@ -632,9 +644,14 @@ section {
     bottom: 70px;
 }
 #journey {
-    background-color: #f3f1f5;
-    margin-left: 20px;
-    margin-right: 20px;
+    background-color: #FFFBFB;
+}
+#journey .journey-header p, .industries-header p{
+    color: #221429;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 #journey p,#journey .journey-body ul li{
     color: #212c35 !important;
@@ -648,15 +665,6 @@ section {
 }
 #journey .journey-body ul li {
     list-style-type: disc;
-}
-#journey .read-more a{
-    margin-left: 20px;
-}
-#journey .read-more a:hover::after {
-    width: 80%;
-}
-#journey .read-more a::after {
-    left: 20px;
 }
 #get-us-know {
     margin-top: 30px;
@@ -742,7 +750,6 @@ section {
 .testimonials {
     background: #503d6a;
     padding: 90px 0;
-    margin: 0 20px;
     position: relative;
 }
 .testimonials .swiper-pagination {
@@ -818,15 +825,11 @@ section {
     font-size: 12px;
     line-height: 1.4;
 }
+#industries{
+    background-color: #F5FAFF;
+}
 #industries .industries-body {
-    width: 90%;
     padding-top: 35px;
-}
-#industries .mt-35 {
-    margin-top: 35px;
-}
-#industries .industries-body.ml-25 {
-    margin-left: 10%;
 }
 .index-blog,.main-blog .square:hover .square-ctc-hover {
     height: 210px;
@@ -946,12 +949,13 @@ section {
     font-size: 12px;
     color: #313131;
     padding-right: 40px;
+    line-height: 18px;
 }
 .w-130 {
     width: 130px;
 }
 .new-footer .new-quick-links li a {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 13px;
     color: #4719b2;
     position: relative;
@@ -2094,11 +2098,6 @@ font-size: 13px;
     }
     #cards-section .card {
         height: 400px;
-    }
-}
-@media (min-width: 950px) {
-    .container,.slider {
-        max-width: 1000px;
     }
 }
 @media (min-width: 767px) {
