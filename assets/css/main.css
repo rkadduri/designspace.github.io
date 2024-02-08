@@ -2082,9 +2082,11 @@ font-size: 13px;
 }
 /************Media styles ***********/
 
-
-
-
+@media (min-width:1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1240px;
+    }
+}
 @media (max-width: 1199px) {
     .testimonials .swiper-slide-active {
         opacity: 1;
