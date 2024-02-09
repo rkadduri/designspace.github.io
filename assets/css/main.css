@@ -1958,14 +1958,14 @@ section {
     position: absolute;
     right: 0;
     left: 0;
-    width: 105%;
-    height: 600px;
+    width: 104%;
+    height: 665px;
 }
 .middle-service-img {
     top: 80px;
     left: 21px;
-    width: 75%;
-    height: 480px;
+    width: 74.3%;
+    height: 545px;
 }
 .timeline-arrow-3 {
     top: 50%;
@@ -1994,7 +1994,7 @@ section {
 .third-service-img {
     width: 39%;
     position: absolute;
-    height: 440px;
+    height: 500px;
     top: 65px;
     right: -60px;
     left: auto;
@@ -2002,7 +2002,7 @@ section {
 .timeline-arrow-round-1 {
     top: auto;
     bottom: -100px;
-    left: 68.2%;
+    left: 67.5%;
 }
 .timeline-arrow-4 {
     top: 50%;
