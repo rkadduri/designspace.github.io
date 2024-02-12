@@ -216,6 +216,10 @@ ul li {
     right: 0;
     top:20px;
 }
+.blog-header{
+    position: relative;
+    top: 0;
+}
 .fixedheader {
     background: #fff;
     transition: 0.5s;
