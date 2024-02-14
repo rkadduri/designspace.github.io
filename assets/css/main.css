@@ -2099,9 +2099,6 @@ font-size: 13px;
     }
 }
 @media (max-width: 1045px) {
-    #cards-section .sec-padding {
-        padding-top: 0;
-    }
     .tab-pt-40 {
         padding-top: 50px !important;
     }
@@ -2144,17 +2141,22 @@ font-size: 13px;
 }
 @media (max-width: 991px) {
     .banner-title {
-        font-size: 36px;
+        font-size: 38px;
+        line-height: 46px;
     }
+    .secondary-title {
+        font-size: 30px;
+        line-height: 38px;
+    }    
     .stitle {
-        font-size: 19px;
+        font-size: 22px;
         width: 99%;
     }
     #cards-section .card .title-tag,.title-tag {
         font-size: 14px;
     }
     .section-title {
-        font-size: 22px;
+        font-size: 24px;
     }
     #cs-design-landing .cs-landing-bg::after,.md-hide {
         display: none !important;
