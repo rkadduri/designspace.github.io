@@ -674,12 +674,14 @@ section {
     list-style-type: disc;
 }
 #get-us-know {
-    margin: 20px 0;
+    margin:20px 0;
 }
 #footer-banner .footer-bg .row,#get-us-know .row {
     align-items: center;
 }
-
+#get-us-know .row .get-us-image {
+    padding-right: 30px;
+}
 #get-us-know .row .round-border {
     width: 250px;
     height: 197px;
@@ -689,7 +691,6 @@ section {
     right: 0;
     z-index: -1;
 }
-
 .slider {
     height: 75pt;
     margin: 0 auto !important;
