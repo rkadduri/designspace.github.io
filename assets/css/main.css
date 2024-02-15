@@ -674,7 +674,7 @@ section {
     list-style-type: disc;
 }
 #get-us-know {
-    margin:20px 0;
+    margin: 20px 0;
 }
 #footer-banner .footer-bg .row,#get-us-know .row {
     align-items: center;
@@ -690,6 +690,9 @@ section {
     top: -40px;
     right: 0;
     z-index: -1;
+}
+#get-us-know .row .get-us-text {
+    padding-left: 15px;
 }
 .slider {
     height: 75pt;
