@@ -127,7 +127,7 @@ ul li {
     color: #FF2E00;
     cursor: pointer;
     font-size: 16px;
-    padding: 16px 28px;
+    padding: 12px 28px;
     text-align: center;
     display: block;
     width: -moz-max-content;
@@ -538,7 +538,6 @@ section {
 }
 .card-title {
     color: #fff;
-    line-height: 1.2;
 }
 #cards-section .card .card-text {
     font-weight: 400;
@@ -551,7 +550,7 @@ section {
     height: auto;
 }
 #cards-section .card-4 .card img {
-    height: 480px;
+    height: 445px;
 }
 #cards-section .card-5 .card img {
     padding: 30px 80px 0;
@@ -612,7 +611,6 @@ section {
     transform: translateY(-50%);
 }
 #cards-section .card-new-hover:hover .card-ctc-hover .case-btn-new .btn1 {
-    padding: 15px 40px;
     border-color: #fff;
     font-size: 14px;
     color: #fff;
@@ -2078,6 +2076,14 @@ font-size: 13px;
 .form-columns-1 {
     margin-bottom: 10px !important;
 }
+
+@keyframes page-open {
+    0%   {width: 0; height: 0; left:0px; top:0px;}
+    100% {width: 100%; height:100%;left:100%; top:0px;}
+}
+.body-transition {
+    animation: 2s ease-out page-open;
+}
 /************Media styles ***********/
 
 @media (min-width:1400px){
@@ -2270,11 +2276,7 @@ font-size: 13px;
     .graphs-height img,.slider {
         height: auto;
     }
-    .btn1 {
-        padding: 13px 25px;
-    }
-    .btn1,
-    p {
+    .btn1, p {
         font-size: 14px;
     }
     .head-para,.main-blog h5 {
