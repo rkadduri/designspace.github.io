@@ -26,7 +26,7 @@ body,p,.tag-line {
 #header-banner .banner-bg h5,.btn1,.date-tag {
     text-transform: capitalize;
 }
-.fifth,.slider {
+.fifth {
     overflow: hidden;
 }
 :root {
@@ -684,66 +684,6 @@ section {
 }
 #get-us-know .row .get-us-text {
     padding-left: 15px;
-}
-.slider {
-    height: 75pt;
-    margin: 0 auto !important;
-    position: relative;
-    cursor: default;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    touch-action: none;
-}
-.slider:before {
-    left: 0;
-    top: 0;
-}
-.slider:after {
-    right: 0;
-    top: 0;
-    transform: rotateZ(180deg);
-}
-.slider .slide-track-1 {
-    animation: 30s linear infinite scroll-l;
-    display: flex;
-    width: 3500px;
-}
-.slider .slide-track-2 {
-    animation: 10s linear infinite scroll-r;
-    display: flex;
-    width: 3500px;
-}
-.slider .slide {
-    height: 75pt;
-    width: 210px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-.slider .slide img {
-    padding: 1pc;
-    vertical-align: middle;
-    margin: 0 auto;
-    display: inline-block;
-    max-width: 100%;
-    height: auto;
-}
-@keyframes scroll-l {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-1750px);
-    }
-}
-@keyframes scroll-r {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-1750px);
-    }
 }
 .testimonials {
     background: #503d6a;
@@ -2279,7 +2219,7 @@ font-size: 13px;
     }
 }
 @media (max-width: 767px) {
-    .graphs-height img,.slider {
+    .graphs-height img {
         height: auto;
     }
     .btn1, p {
@@ -2291,7 +2231,7 @@ font-size: 13px;
     #journey .journey-body ul li {
         font-size: 15px;
     }
-    .mhide,.slide-md-none {
+    .mhide{
         display: none !important;
     }
     #cards-section .mt--40,#cards-section .mt-120,#cards-section .mt-170,#mobility-card .card-img-bottom,.bg-cards-pd img,.bg-cards-rms img,.bg-grey-background img {
@@ -2325,29 +2265,6 @@ font-size: 13px;
     }
     #get-us-know .row .get-us-image,.new-footer p {
         padding-right: 0;
-    }
-    .slider {
-        -webkit-user-select: auto;
-        -moz-user-select: auto;
-        user-select: auto;
-        touch-action: auto;
-    }
-    .slider .slide img {
-        max-width: 90%;
-        padding: 5px;
-    }
-    .slider .slide {
-        width: 33.3%;
-        display: flex;
-        align-items: center;
-        float: left;
-        text-align: center;
-        flex-direction: row;
-    }
-    .slider .slide-track-1 {
-        animation: auto;
-        display: block;
-        width: auto;
     }
     .testimonials .testimonial-item {
         margin-top: 35px;
