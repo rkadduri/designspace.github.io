@@ -763,7 +763,7 @@ section {
     font-size: 12px;
     line-height: 1.4;
 }
-#industries{
+#industries,.about-work{
     background-color: #F5FAFF;
 }
 #industries .industries-body {
@@ -1976,12 +1976,6 @@ section {
 .btn-black .fifth:hover,.cs-design-bg-rodwell-2 .col-md-4 h6,.cs-design-bg-rodwell-2 .col-md-4 p {
     color: #fff !important;
 }
-
-.about-tp{
-padding-top:2.8rem;
-}
-
-
 /*****Contact us page*****/
 
 ul.no-list.hs-error-msgs.inputs-list {
