@@ -771,6 +771,7 @@ section {
 }
 .index-blog,.main-blog .square:hover .square-ctc-hover {
     height: 210px;
+    object-fit: cover;
 }
 .square:hover .square-ctc-hover img {
     padding: 0;
@@ -1147,13 +1148,6 @@ section {
 #blogs-cards .container-bg .blog-banner-card {
     background-color: #f7f5f8;
     padding: 25px 25px 35px;
-}
-.blog-page .square:hover .square-ctc-hover {
-    height: 290px;
-}
-.blog-img-height {
-    height: 290px;
-    object-fit: cover;
 }
 .date-tag {
     font-weight: 500;
@@ -2326,7 +2320,7 @@ font-size: 13px;
     .new-footer .py-4 {
         padding-bottom: 0 !important;
     }
-    .blog-img-height,.square:hover .square-ctc-hover {
+    .square:hover .square-ctc-hover {
         height: 240px !important;
     }
     #blogs-cards .container-bg {
