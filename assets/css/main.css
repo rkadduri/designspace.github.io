@@ -1124,16 +1124,17 @@ section {
 }
 #contact-cards form .actions .hs-button {
     border-radius: 0;
-    color: #4719b2;
+    color: #FF2E00;
     position: relative;
     z-index: 1;
     font-weight:500;
     border: 1px solid;
+    border-radius: 2px;
     background-color: transparent;
     padding: 10px 30px;
 }
 #contact-cards form .actions .hs-button:hover {
-    background-color: #4719b2;
+    background-color: #FF2E00;
     color: #fff;
 }
 #blogs-cards .container-bg {
