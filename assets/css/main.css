@@ -85,6 +85,9 @@ h2,h3,h4,h5,h6, p {
     line-height: 25px;
     letter-spacing: -0.44px;
 }
+.page-breadcrumbs{
+    font-size: 14px;
+}
 h1,h2,h3,h4,h5,h6, .w700 {
     font-weight: 700;
 }
