@@ -284,7 +284,7 @@ section {
         height: 2px;
         bottom: -6px;
         left: 0;
-        background-color: #b63362;
+        background-color: #FF2E00;
         visibility: hidden;
         width: 0;
         transition: 0.3s ease-in-out;
@@ -294,7 +294,7 @@ section {
         width: 100%;
     }
     .navbar .active,.navbar .active:focus,.navbar a:hover,.navbar li:hover > a {
-        color: #b63362;
+        color: #FF2E00;
     }
     .navbar .dropdown ul {
         display: block;
@@ -326,7 +326,7 @@ section {
     .navbar .dropdown ul .active:hover,.navbar .dropdown ul a:hover,.navbar .dropdown ul li:hover > a {
         background: #faf7fe;
         border-radius: 4px 4px 0 0;
-        color: #b63362;
+        color: #FF2E00;
     }
     .navbar .dropdown:hover > ul {
         opacity: 1;
@@ -873,9 +873,6 @@ section {
     padding: 0 2px 2px 0;
     position: relative;
 }
-.new-footer .footer-company-link:hover::after {
-    border-bottom: solid #4719b2;
-}
 .new-footer .list-inline-item a {
     margin: 10px 4px;
 }
@@ -903,14 +900,11 @@ section {
     position: relative;
     padding-bottom: 3px;
 }
-.new-footer .new-quick-links li a:hover {
-    color: #b63362;
+.new-footer .new-quick-links li a:hover,.new-footer .footer-mail-clicks:hover span,.new-footer a.footer-color:hover {
+    color: #FF2E00;
 }
-.new-footer .new-quick-links li a:hover::after {
-    border-bottom: solid #b63362;
-}
-.new-footer .footer-mail-clicks:hover span::after {
-    border-bottom: solid #4719b2;
+.new-footer .new-quick-links li a:hover::after,.new-footer .footer-mail-clicks:hover span::after,.new-footer .footer-company-link:hover::after {
+    border-bottom: solid #FF2E00;
 }
 .new-footer .single-cta {
     display: flex;
