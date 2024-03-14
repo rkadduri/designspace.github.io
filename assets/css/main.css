@@ -227,10 +227,13 @@ ul li {
     background: #fff;
     transition: 0.5s;
     position: fixed;
-    width: 100%;
-    box-shadow: 0 0 8px 2px #827d8d26;
+    width: auto;
+    box-shadow: 0 0 10px -2px #827d8d26;
     height: 60px !important;
-    top:0
+    top:0;
+    left: 20px;
+    right: 20px;
+
 }
 .header .logo img {
     max-height: 40px;
